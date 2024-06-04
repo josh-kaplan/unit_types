@@ -1,0 +1,19 @@
+[package]
+name = "unit_types"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+authors = ["Josh Kaplan"]
+description = "A unit-aware type system for Rust"
+homepage = "https://github.com/josh-kaplan/unit_types"
+repository = "https://github.com/josh-kaplan/unit_types"
+readme = "README.md"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[profile.test]
+profiler = true
+
+[dependencies]
+
+
